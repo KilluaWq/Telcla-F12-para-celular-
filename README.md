@@ -1,0 +1,1 @@
+javascript:(function(){if(typeof eruda==='undefined'){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/eruda@3.0.1';document.documentElement.appendChild(s);s.onload=function(){eruda.init({displaySize:80,defaults:{network:true,console:true}});}}else{eruda.show();}})();
